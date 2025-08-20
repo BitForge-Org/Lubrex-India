@@ -115,7 +115,7 @@ const Navbar = () => {
               Become a distributor
             </NavLink> */}
             {/* Hamburger: Mobile only */}
-            <button
+            {/* <button
               className="md:hidden p-2 rounded-full hover:bg-blue-50 text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
               aria-label={mobileOpen ? "Close menu" : "Open menu"}
               aria-controls="mobile-menu"
@@ -125,7 +125,7 @@ const Navbar = () => {
               type="button"
             >
               {mobileOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
