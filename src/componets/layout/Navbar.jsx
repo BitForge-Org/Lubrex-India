@@ -4,16 +4,16 @@ import logo from "../../assets/logo-04.png";
 import { NavLink } from "react-router-dom";
 
 const NAV_LINKS = [
-  { label: "About Us", href: "/about" },
-  { label: "Products", href: "/products" },
-  { label: "Services", href: "/services" },
-  {
-    label: "Oil Finder",
-    href: "https://lubrex-are.lubricantadvisor.com/en",
-    external: true,
-  },
-  { label: "Certificates", href: "/certificates" },
-  { label: "Events and Articles", href: "/events-articles" },
+  // { label: "About Us", href: "/about" },
+  // { label: "Products", href: "/products" },
+  // { label: "Services", href: "/services" },
+  // {
+  //   label: "Oil Finder",
+  //   href: "https://lubrex-are.lubricantadvisor.com/en",
+  //   external: true,
+  // },
+  // { label: "Certificates", href: "/certificates" },
+  // { label: "Events and Articles", href: "/events-articles" },
 ];
 
 const Navbar = () => {
@@ -107,13 +107,13 @@ const Navbar = () => {
 
           {/* Right: Become a distributor & Hamburger */}
           <div className="flex items-center gap-2">
-            <NavLink
+            {/* <NavLink
               to="/become-distributor"
               className="ml-2 px-4 py-2 rounded-md bg-yellow-400 text-black text-sm font-semibold hover:bg-yellow-500 transition-colors focus:outline-none focus:ring-2 hidden md:inline-block"
               tabIndex={0}
             >
               Become a distributor
-            </NavLink>
+            </NavLink> */}
             {/* Hamburger: Mobile only */}
             <button
               className="md:hidden p-2 rounded-full hover:bg-blue-50 text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -206,16 +206,17 @@ const Navbar = () => {
                 </NavLink>
               )
             )}
-            {mobileOpen && (
-              <NavLink
+            {mobileOpen &&
+              {
+                /* <NavLink
                 to="/become-distributor"
                 className="ml-2 px-4 py-2 rounded-md  bg-yellow-400 text-black text-sm font-semibold hover:bg-yellow-500 transition-colors focus:outline-none focus:ring-2"
                 tabIndex={mobileOpen ? 0 : -1}
                 onClick={() => setMobileOpen(false)}
               >
                 Become a distributor
-              </NavLink>
-            )}
+              </NavLink> */
+              }}
           </nav>
           <div className="flex items-center justify-center gap-4 py-6 border-t border-gray-100"></div>
         </div>
