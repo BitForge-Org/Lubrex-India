@@ -18,7 +18,7 @@ function AppRoutes() {
       {/* Public Routes (no login required) */}
 
       {/* Main App Routes */}
-      {ROUTES.map(({ path, element }, idx) => {
+      {ROUTES.map(({ path, element, label }, idx) => {
         const ElementComponent = {
           Home,
           About,
@@ -32,7 +32,9 @@ function AppRoutes() {
           <Route
             key={idx}
             path={path}
-            element={<RouteWrapper element={<ElementComponent />} />}
+            element={
+              <RouteWrapper element={<ElementComponent />} title={label} />
+            }
           />
         );
       })}
