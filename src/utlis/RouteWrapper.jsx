@@ -1,8 +1,11 @@
 // RouteWrapper.jsx
-import React from "react";
-import { Navigate } from "react-router-dom";
 
-const RouteWrapper = ({ element }) => {
+import React, { useEffect } from "react";
+
+const RouteWrapper = ({ element, title }) => {
+  useEffect(() => {
+    document.title = title ? `${title} | Lubrex India` : "Lubrex India";
+  }, [title]);
   return element;
 };
 
