@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const NAV_LINKS = [
   { label: "About Us", href: "/about" },
   { label: "Products", href: "/products" },
-  { label: "Services", href: "/services" },
+  // { label: "Services", href: "/services" },
   {
     label: "Oil Finder",
     href: "https://lubrex-are.lubricantadvisor.com/en",

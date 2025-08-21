@@ -23,7 +23,7 @@ const Products = () => {
   const [activeCategory, setActiveCategory] = useState("automotive");
   const [selectedProduct, setSelectedProduct] = useState(null);
 
-  // Product categories with enhanced images
+  // Product categories with realistic automotive images
   const categories = [
     {
       id: "automotive",
@@ -33,7 +33,7 @@ const Products = () => {
       description: "Premium engine oils for passenger cars and light vehicles",
       color: "yellow",
       bgImage:
-        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     },
     {
       id: "motorcycle",
@@ -43,7 +43,7 @@ const Products = () => {
       description: "High-performance oils for motorcycles and scooters",
       color: "yellow",
       bgImage:
-        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     },
     {
       id: "xtrem",
@@ -53,7 +53,7 @@ const Products = () => {
       description: "Ultimate performance lubricants for extreme conditions",
       color: "red",
       bgImage:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     },
     {
       id: "agriculture",
@@ -63,7 +63,7 @@ const Products = () => {
       description: "Specialized lubricants for agricultural equipment",
       color: "gray",
       bgImage:
-        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1500595046743-cd271d694d30?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     },
     {
       id: "heavy",
@@ -73,7 +73,7 @@ const Products = () => {
       description: "Heavy-duty lubricants for commercial vehicles",
       color: "gray",
       bgImage:
-        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     },
     {
       id: "industrial",
@@ -83,7 +83,7 @@ const Products = () => {
       description: "Industrial-grade lubricants and greases",
       color: "gray",
       bgImage:
-        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     },
   ];
 
@@ -121,9 +121,9 @@ const Products = () => {
       ],
       performance: ["API SN/CF", "ACEA A3/B4", "RENAULT RN0700 RN0710"],
       image:
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       productImage:
-        "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
     },
     {
       id: 2,
@@ -163,9 +163,9 @@ const Products = () => {
         "PSA B71 2296",
       ],
       image:
-        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       productImage:
-        "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
     },
     {
       id: 3,
@@ -194,9 +194,9 @@ const Products = () => {
       approvals: ["Racing specification", "High performance standards"],
       performance: ["API SN/CF", "Racing standards", "Performance certified"],
       image:
-        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       productImage:
-        "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
     },
     {
       id: 4,
@@ -225,9 +225,9 @@ const Products = () => {
       approvals: ["API License SAE 0W-20"],
       performance: ["API SN/CF", "ACEA A3/B4", "Latest fuel economy standards"],
       image:
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       productImage:
-        "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
     },
     {
       id: 5,
@@ -256,9 +256,9 @@ const Products = () => {
       approvals: ["API License SAE 0W-40"],
       performance: ["API SN/CF", "ACEA A3/B4", "Multi-season standards"],
       image:
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1632428877345-4d9139a0baec?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       productImage:
-        "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
     },
     {
       id: 6,
@@ -290,9 +290,9 @@ const Products = () => {
       ],
       performance: ["API SN/RC", "Professional grade", "Fleet approved"],
       image:
-        "https://images.unsplash.com/photo-1632428877345-4d9139a0baec?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       productImage:
-        "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
     },
   ];
 
@@ -325,9 +325,9 @@ const Products = () => {
       approvals: ["Motorcycle racing specifications", "JASO MA2 compatible"],
       performance: ["API SN", "JASO MA2", "Racing standards"],
       image:
-        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       productImage:
-        "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
     },
     {
       id: 8,
@@ -360,9 +360,9 @@ const Products = () => {
         "Extended service intervals",
       ],
       image:
-        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       productImage:
-        "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
     },
   ];
 
@@ -410,23 +410,31 @@ const Products = () => {
   const ProductModal = ({ product, onClose }) => {
     if (!product) return null;
 
+    // Prevent background scrolling when modal is open
+    React.useEffect(() => {
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = "unset";
+      };
+    }, []);
+
     return (
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50"
+        className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-start justify-center p-4 overflow-y-auto"
         onClick={onClose}
       >
         <motion.div
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0.9, opacity: 0 }}
-          className="bg-white rounded-2xl max-w-4xl w-full max-h-90vh overflow-y-auto"
+          className="bg-white rounded-2xl max-w-3xl w-full my-8 relative"
           onClick={(e) => e.stopPropagation()}
         >
           <div
-            className="relative p-8 rounded-t-2xl text-white"
+            className="relative p-6 rounded-t-2xl text-white"
             style={{
               backgroundImage: `linear-gradient(135deg, rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url(${product.image})`,
               backgroundSize: "cover",
@@ -435,17 +443,17 @@ const Products = () => {
           >
             <div className="flex items-start justify-between">
               <div className="flex-1">
-                <div className="flex items-center gap-4 mb-4">
+                <div className="flex items-center gap-3 mb-3">
                   <img
                     src={product.productImage}
                     alt={product.name}
-                    className="w-20 h-20 object-cover rounded-xl border-2 border-yellow-500"
+                    className="w-16 h-16 object-cover rounded-lg border-2 border-yellow-500"
                   />
                   <div>
-                    <span className="bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full uppercase">
+                    <span className="bg-yellow-500 text-black text-xs font-bold px-2 py-1 rounded-full uppercase">
                       {product.series}
                     </span>
-                    <h2 className="text-2xl font-bold text-white mt-2">
+                    <h2 className="text-xl font-bold text-white mt-1">
                       {product.name}
                     </h2>
                   </div>
@@ -453,38 +461,42 @@ const Products = () => {
               </div>
               <button
                 onClick={onClose}
-                className="text-white hover:text-yellow-500 text-3xl font-bold ml-4"
+                className="text-white hover:text-yellow-500 text-2xl font-bold ml-3"
               >
                 ×
               </button>
             </div>
           </div>
 
-          <div className="p-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+          <div className="p-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
               <div>
-                <h3 className="font-bold text-gray-800 mb-4 flex items-center">
-                  <Settings className="h-5 w-5 text-yellow-500 mr-2" />
+                <h3 className="font-bold text-gray-800 mb-3 flex items-center text-sm">
+                  <Settings className="h-4 w-4 text-yellow-500 mr-2" />
                   Specifications
                 </h3>
-                <div className="bg-gray-50 rounded-xl p-4 space-y-3">
+                <div className="bg-gray-50 rounded-lg p-3 space-y-2">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Viscosity:</span>
-                    <span className="font-bold text-black">
+                    <span className="text-gray-600 text-sm">Viscosity:</span>
+                    <span className="font-bold text-black text-sm">
                       {product.viscosity}
                     </span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">API Rating:</span>
-                    <span className="font-bold text-black">{product.api}</span>
+                    <span className="text-gray-600 text-sm">API Rating:</span>
+                    <span className="font-bold text-black text-sm">
+                      {product.api}
+                    </span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Type:</span>
-                    <span className="font-bold text-black">{product.type}</span>
+                    <span className="text-gray-600 text-sm">Type:</span>
+                    <span className="font-bold text-black text-sm">
+                      {product.type}
+                    </span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Packing:</span>
-                    <span className="font-bold text-black">
+                    <span className="text-gray-600 text-sm">Packing:</span>
+                    <span className="font-bold text-black text-sm">
                       {product.packing}
                     </span>
                   </div>
@@ -492,44 +504,46 @@ const Products = () => {
               </div>
 
               <div>
-                <h3 className="font-bold text-gray-800 mb-4 flex items-center">
-                  <Award className="h-5 w-5 text-yellow-500 mr-2" />
+                <h3 className="font-bold text-gray-800 mb-3 flex items-center text-sm">
+                  <Award className="h-4 w-4 text-yellow-500 mr-2" />
                   Applications
                 </h3>
-                <ul className="space-y-2">
-                  {product.applications.map((app, index) => (
+                <ul className="space-y-1">
+                  {product.applications.slice(0, 4).map((app, index) => (
                     <li key={index} className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-yellow-500 mr-3 flex-shrink-0" />
-                      <span className="text-gray-700">{app}</span>
+                      <CheckCircle className="h-3 w-3 text-yellow-500 mr-2 flex-shrink-0" />
+                      <span className="text-gray-700 text-sm">{app}</span>
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
 
-            <div className="mb-8">
-              <h3 className="font-bold text-gray-800 mb-4 flex items-center">
-                <Star className="h-5 w-5 text-yellow-500 mr-2" />
+            <div className="mb-6">
+              <h3 className="font-bold text-gray-800 mb-3 flex items-center text-sm">
+                <Star className="h-4 w-4 text-yellow-500 mr-2" />
                 Key Features
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {product.features.map((feature, index) => (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                {product.features.slice(0, 6).map((feature, index) => (
                   <div key={index} className="flex items-start">
-                    <Zap className="h-4 w-4 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
-                    <span className="text-gray-700">{feature}</span>
+                    <Zap className="h-3 w-3 text-yellow-500 mr-2 mt-1 flex-shrink-0" />
+                    <span className="text-gray-700 text-sm">{feature}</span>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
               <div>
-                <h3 className="font-bold text-gray-800 mb-3">OEM Approvals</h3>
-                <div className="space-y-2">
-                  {product.approvals.map((approval, index) => (
+                <h3 className="font-bold text-gray-800 mb-2 text-sm">
+                  OEM Approvals
+                </h3>
+                <div className="space-y-1">
+                  {product.approvals.slice(0, 3).map((approval, index) => (
                     <div
                       key={index}
-                      className="bg-green-50 text-green-800 text-sm px-3 py-2 rounded-lg"
+                      className="bg-green-50 text-green-800 text-xs px-2 py-1 rounded"
                     >
                       {approval}
                     </div>
@@ -538,14 +552,14 @@ const Products = () => {
               </div>
 
               <div>
-                <h3 className="font-bold text-gray-800 mb-3">
+                <h3 className="font-bold text-gray-800 mb-2 text-sm">
                   Performance Standards
                 </h3>
-                <div className="space-y-2">
-                  {product.performance.map((perf, index) => (
+                <div className="space-y-1">
+                  {product.performance.slice(0, 3).map((perf, index) => (
                     <div
                       key={index}
-                      className="bg-blue-50 text-blue-800 text-sm px-3 py-2 rounded-lg"
+                      className="bg-blue-50 text-blue-800 text-xs px-2 py-1 rounded"
                     >
                       {perf}
                     </div>
@@ -554,9 +568,9 @@ const Products = () => {
               </div>
             </div>
 
-            <div className="mt-8 p-6 bg-gradient-to-r from-black to-gray-800 rounded-xl text-white">
-              <h4 className="font-bold mb-2">Description</h4>
-              <p className="text-gray-300 leading-relaxed">
+            <div className="p-4 bg-gradient-to-r from-black to-gray-800 rounded-lg text-white">
+              <h4 className="font-bold mb-2 text-sm">Description</h4>
+              <p className="text-gray-300 leading-relaxed text-sm">
                 {product.description}
               </p>
             </div>
@@ -573,7 +587,7 @@ const Products = () => {
         className="relative min-h-screen flex items-center justify-center"
         style={{
           backgroundImage:
-            "linear-gradient(135deg, rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)",
+            "linear-gradient(135deg, rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
@@ -639,7 +653,7 @@ const Products = () => {
       </div>
 
       {/* Products Section */}
-      <div className="relative bg-gradient-to-b from-gray-900 to-black">
+      <div className="relative bg-gradient-to-b bg-white">
         <div className="max-w-7xl mx-auto py-16 px-4">
           {/* Category Navigation */}
           <motion.div
@@ -888,7 +902,7 @@ const Products = () => {
               className="relative rounded-3xl p-8 md:p-12 overflow-hidden"
               style={{
                 backgroundImage:
-                  "linear-gradient(135deg, rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url(https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)",
+                  "linear-gradient(135deg, rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url(https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
