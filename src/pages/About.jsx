@@ -14,6 +14,7 @@ import {
   MapPin,
   Shield,
 } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   const fadeInUp = {
@@ -160,7 +161,7 @@ const About = () => {
                 </div>
                 <div className="w-px h-12 bg-gray-600"></div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-yellow-400">80+</div>
+                  <div className="text-2xl font-bold text-yellow-400">86+</div>
                   <div className="text-gray-400">Countries Served</div>
                 </div>
                 <div className="w-px h-12 bg-gray-600"></div>
@@ -192,7 +193,7 @@ const About = () => {
             <div className="w-24 h-1 bg-yellow-500 mx-auto mb-6"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Part of the global Lubrex FZC family, we've established ourselves
-              as India's trusted lubricant partner
+              as India's trusted authorized dealer.
             </p>
           </motion.div>
 
@@ -529,14 +530,16 @@ const About = () => {
             Discover how our advanced lubricant solutions can enhance your
             operations
           </p>
-          <motion.button
-            className="bg-black text-yellow-400 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition-colors duration-300 inline-flex items-center"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Contact Us Today
-            <ArrowRight className="w-5 h-5 ml-2" />
-          </motion.button>
+          <NavLink to="/contact">
+            <motion.button
+              className="bg-black text-yellow-400 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition-colors duration-300 inline-flex items-center"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Contact Us Today
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </motion.button>{" "}
+          </NavLink>
         </div>
       </motion.section>
     </div>

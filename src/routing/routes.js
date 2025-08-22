@@ -13,4 +13,14 @@ export const ROUTES = [
     label: "Events and Articles",
     element: "EventsArticles",
   },
+  {
+    path: "/become-distributor",
+    label: "Become a Distributor",
+    element: "BecomeDistributor",
+  },
+  {
+    path: "/contact",
+    label: "Contact Us",
+    element: "Contact",
+  },
 ];

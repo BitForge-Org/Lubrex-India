@@ -7,10 +7,10 @@ const EventsAndArticles = () => {
   const event = {
     id: 1,
     title: "Upcoming Event",
-    location: "XYZ Mall, xyz street, Pune",
+    location:
+      "Amanora Mall, Mundhwa - Kharadi Rd, Amanora Park Town, Hadapsar, Pune, Maharashtra 411028",
     date: "Saturday, 23rd August",
-    time: "10:00 AM - 6:00 PM",
-    attendees: "200+",
+    time: "4:00 PM - 10:00 PM",
     image:
       "https://images.unsplash.com/photo-1646527825581-32132b571fdc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Featured",
@@ -154,7 +154,7 @@ const EventsAndArticles = () => {
 
               {/* Action Buttons */}
               <div className="flex flex-col sm:flex-row gap-4">
-                <motion.button
+                {/* <motion.button
                   variants={buttonVariants}
                   whileHover="hover"
                   whileTap="tap"
@@ -162,17 +162,22 @@ const EventsAndArticles = () => {
                 >
                   <span>Learn More</span>
                   <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
-                </motion.button>
-
-                <motion.button
-                  variants={buttonVariants}
-                  whileHover="hover"
-                  whileTap="tap"
-                  className="flex-1 bg-black hover:bg-gray-800 text-white font-bold py-4 px-6 rounded-xl transition-colors duration-300 flex items-center justify-center space-x-2 group"
+                </motion.button> */}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://share.google/vhDORjFVX0FKwhc9e"
                 >
-                  <MapPin className="h-5 w-5 group-hover:bounce transition-all duration-300" />
-                  <span>Locate</span>
-                </motion.button>
+                  <motion.button
+                    variants={buttonVariants}
+                    whileHover="hover"
+                    whileTap="tap"
+                    className="flex-1 bg-black hover:bg-gray-800 text-white font-bold py-4 px-6 rounded-xl transition-colors duration-300 flex items-center justify-center space-x-2 group"
+                  >
+                    <MapPin className="h-5 w-5 group-hover:bounce transition-all duration-300" />
+                    <span>Locate</span>
+                  </motion.button>
+                </a>
               </div>
             </div>
           </motion.div>

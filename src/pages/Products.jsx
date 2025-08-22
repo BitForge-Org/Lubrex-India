@@ -121,9 +121,9 @@ const Products = () => {
       ],
       performance: ["API SN/CF", "ACEA A3/B4", "RENAULT RN0700 RN0710"],
       image:
-        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://lubrex.net/wp-content/uploads/2022/03/VELOCITY-NANO-PLUS-5W-40-768x768.webp",
       productImage:
-        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://lubrex.net/wp-content/uploads/2022/03/VELOCITY-NANO-PLUS-5W-40-768x768.webp",
     },
     {
       id: 2,
@@ -163,9 +163,9 @@ const Products = () => {
         "PSA B71 2296",
       ],
       image:
-        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://lubrex.net/wp-content/uploads/2022/03/VELOCITY-NANO-PLUS-5W-30-768x768.webp",
       productImage:
-        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://lubrex.net/wp-content/uploads/2022/03/VELOCITY-NANO-PLUS-5W-30-768x768.webp",
     },
     {
       id: 3,
@@ -194,9 +194,9 @@ const Products = () => {
       approvals: ["Racing specification", "High performance standards"],
       performance: ["API SN/CF", "Racing standards", "Performance certified"],
       image:
-        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://lubrex.net/wp-content/uploads/2022/09/VELOCITY-NANO-EC-PLUS-5W-40-768x768.webp",
       productImage:
-        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://lubrex.net/wp-content/uploads/2022/09/VELOCITY-NANO-EC-PLUS-5W-40-768x768.webp",
     },
     {
       id: 4,
@@ -225,9 +225,9 @@ const Products = () => {
       approvals: ["API License SAE 0W-20"],
       performance: ["API SN/CF", "ACEA A3/B4", "Latest fuel economy standards"],
       image:
-        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://lubrex.net/wp-content/uploads/2022/09/VELOCITY-NANO-EC-PLUS-0W-20.webp",
       productImage:
-        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://lubrex.net/wp-content/uploads/2022/09/VELOCITY-NANO-EC-PLUS-0W-20.webp",
     },
     {
       id: 5,
@@ -256,9 +256,9 @@ const Products = () => {
       approvals: ["API License SAE 0W-40"],
       performance: ["API SN/CF", "ACEA A3/B4", "Multi-season standards"],
       image:
-        "https://images.unsplash.com/photo-1632428877345-4d9139a0baec?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://lubrex.net/wp-content/uploads/2022/09/VELOCITY-NANO-EC-PLUS-0W-40-768x768.webp",
       productImage:
-        "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://lubrex.net/wp-content/uploads/2022/09/VELOCITY-NANO-EC-PLUS-0W-40-768x768.webp",
     },
     {
       id: 6,
@@ -290,9 +290,9 @@ const Products = () => {
       ],
       performance: ["API SN/RC", "Professional grade", "Fleet approved"],
       image:
-        "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+        "https://lubrex.net/wp-content/uploads/2022/09/VELOCITY-NANO-EC-PLUS-0W-20.webp",
       productImage:
-        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://lubrex.net/wp-content/uploads/2022/09/VELOCITY-NANO-EC-PLUS-0W-20.webp",
     },
   ];
 
@@ -327,7 +327,7 @@ const Products = () => {
       image:
         "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       productImage:
-        "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://lubrex.net/wp-content/uploads/2025/05/RACE-4T-NANO-XP-20W-50-FS.png",
     },
     {
       id: 8,
@@ -362,7 +362,7 @@ const Products = () => {
       image:
         "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       productImage:
-        "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "https://lubrex.net/wp-content/uploads/2025/05/RACE-4T-NANO-XP-20W-50-FS.png",
     },
   ];
 
