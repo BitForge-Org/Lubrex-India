@@ -236,8 +236,8 @@ const Contact = () => {
                   <div>
                     <h3 className="font-bold text-black mb-2">Phone</h3>
                     <p className="text-gray-600 text-sm">
-                      <a href="tel:+919876543210" className="hover:underline">
-                        +91 98765 43210
+                      <a href="tel:+919137783915" className="hover:underline">
+                        +91 9137783915
                       </a>
                     </p>
                   </div>
@@ -411,7 +411,7 @@ const Contact = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.a
-              href="tel:+919876543210"
+              href="tel:+919137783915"
               className="bg-black text-yellow-400 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition-colors duration-300 inline-flex items-center justify-center"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

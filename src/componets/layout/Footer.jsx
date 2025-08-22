@@ -97,10 +97,10 @@ const Footer = () => {
                 <Phone className="w-5 h-5" /> Call Us
               </p>
               <a
-                href="tel:+919090909999"
+                href="tel:+91 9137783915"
                 className="text-slate-300 hover:text-amber-400 transition-colors"
               >
-                +91 90909099**
+                +91 9137783915
               </a>
             </div>
           </div>
