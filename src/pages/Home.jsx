@@ -165,7 +165,7 @@ const Home = () => {
               <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </NavLink>
 
-            <button className="group flex items-center space-x-3 text-lg text-black hover:text-yellow-600 transition-colors">
+            {/* <button className="group flex items-center space-x-3 text-lg text-black hover:text-yellow-600 transition-colors">
               <div className="w-14 h-14 border-2 border-black group-hover:border-yellow-600 rounded-full flex items-center justify-center transition-colors">
                 <Play
                   className="ml-1 text-black group-hover:text-yellow-600"
@@ -173,7 +173,7 @@ const Home = () => {
                 />
               </div>
               <span className="font-medium">Watch Our Story</span>
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -354,7 +354,7 @@ const Home = () => {
               </h2>
 
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Lubrex India is a leading lubricant manufacturing company,
+                Lubrex India is a leading authorized dealer of lubrex,
                 established as the flag bearer in India of a group of lubricant
                 manufacturing oil exporting companies with decades of
                 experience, supplying high-end lubricants and greases to meet
@@ -468,9 +468,12 @@ const Home = () => {
                 manufacturer.
               </p>
 
-              <button className="bg-gradient-to-r from-red-600 to-orange-600 text-white px-10 py-5 rounded-full text-lg font-semibold hover:from-red-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <NavLink
+                to="/become-distributor"
+                className="bg-gradient-to-r from-red-600 to-orange-600 text-white px-10 py-5 rounded-full text-lg font-semibold hover:from-red-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
                 Become a Distributor
-              </button>
+              </NavLink>
             </div>
 
             <div className="relative">

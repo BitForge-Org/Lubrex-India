@@ -11,6 +11,13 @@ import Services from "../pages/Services";
 import OilFinder from "../pages/OilFinder";
 import Certificates from "../pages/Certificates";
 import EventsArticles from "../pages/EventsArticles";
+import BecomeDistributor from "../pages/BecomeDistributor";
+import Contact from "../pages/Contact";
+
+/**
+ * AppRoutes component defines the main routing structure of the application.
+ * It uses RouteWrapper to set document titles for each route.
+ */
 
 function AppRoutes() {
   return (
@@ -27,6 +34,8 @@ function AppRoutes() {
           OilFinder,
           Certificates,
           EventsArticles,
+          BecomeDistributor,
+          Contact,
         }[element];
         return (
           <Route
