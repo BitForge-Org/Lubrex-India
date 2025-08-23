@@ -338,7 +338,11 @@ const Home = () => {
 
               {/* Floating Stats */}
               <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-xl border border-gray-100">
-                <div className="text-3xl font-bold text-red-600">BMW</div>
+                <div className="text-3xl font-bold text-red-600">
+                  <span className="text-[#81C4FF]">B</span>
+                  <span className="text-[#16588E]">M</span>
+                  <span className="text-[#E7222E]">W</span>
+                </div>
                 <div className="text-gray-600">Approved</div>
               </div>
 
