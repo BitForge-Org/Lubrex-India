@@ -17,16 +17,16 @@ export default defineConfig({
         background_color: "#000000",
         theme_color: "#facc15",
         icons: [
-          // {
-          //   src: "/favicon.png",
-          //   sizes: "192x192",
-          //   type: "image/png",
-          // },
-          // {
-          //   src: "/favicon.png",
-          //   sizes: "512x512",
-          //   type: "image/png",
-          // },
+          {
+            src: "https://lubrex.net/wp-content/uploads/2021/12/favicon.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "https://lubrex.net/wp-content/uploads/2021/12/favicon.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
         ],
       },
     }),
