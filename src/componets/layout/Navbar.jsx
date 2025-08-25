@@ -57,8 +57,8 @@ const Navbar = () => {
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Left: Logo */}
-          <a
-            href="/"
+          <NavLink
+            to="/"
             className="flex items-center gap-2 font-bold text-xl text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
             aria-label="Lubrex Home"
           >
@@ -68,7 +68,7 @@ const Navbar = () => {
               className="h-16 object-contain"
               style={{ maxWidth: 120 }}
             />
-          </a>
+          </NavLink>
 
           {/* Center: Desktop Menu */}
           <div className="hidden md:flex gap-2 lg:gap-6 mx-4 flex-1 justify-center">
