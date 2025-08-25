@@ -146,7 +146,7 @@ const Home = () => {
             Leading Lubricants
             <br />
             <span className="text-3xl md:text-5xl bg-gradient-to-r from-yellow-500 to-yellow-600 bg-clip-text text-transparent">
-              Authorized Distributors
+              Authorized Distributor
             </span>
           </h1>
 
